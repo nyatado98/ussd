@@ -1,8 +1,8 @@
 <?php
 // Reads the variables sent via POST
-$sessionId   = $_POST["sessionId"];  
-$serviceCode = $_POST["serviceCode"];  
-$text = $_POST["text"];
+// $sessionId   = $_POST["sessionId"];  
+// $serviceCode = $_POST["serviceCode"];  
+$text = '1';
 //This is the first menu screen
 if ( $text == "" ) {
 $response  = "CON Hi welcome, I can help you with Event Reservation \n";
